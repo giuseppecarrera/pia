@@ -14,13 +14,13 @@
 		"knowledge_base_link": "Archivio",
 		"pia_example_link": "Esempio PIA",
 		"languages": {
-      "official_translation": "TO BE TRANSLATED - Original version",
-      "cnil_translations": "TO BE TRANSLATED - CNIL provided translations",
-      "community_translations": "TO BE TRANSLATED - Community provided translations",
+      "official_translation": "Versione originale",
+      "cnil_translations": "Traduzione fornita dal CNIL",
+      "community_translations": "Traduzione fornita dalla community",
 			"fr": "Français",
       "en": "English",
       "cz": "Česky",
-      "it": "Italiaans",
+      "it": "Italians",
       "nl": "Nederlands",
       "pl": "Polski",
       "de": "Deutsch",
@@ -46,13 +46,13 @@
 			"author": "Autore",
 			"assessor": "Revisore",
 			"validator": "Validatore",
-			"new_pia": "Nuova PIA",
+			"new_pia": "Nuovo PIA",
 			"import_pia": "Importa PIA",
-			"list_rocket_content": "Inizia! Per impostare <br>una PIA, clicca sul +",
-			"card_rocket_content": "Inizia! Per impostare <br>una PIA, clicca sul +"
+			"list_rocket_content": "Inizia! Per impostare <br>un PIA, clicca sul +",
+			"card_rocket_content": "Inizia! Per impostare <br>un PIA, clicca sul +"
 		},
 		"cards": {
-			"new_pia": "Nuova PIA",
+			"new_pia": "Nuovo PIA",
 			"placeholder_new_pia": "Nuova PIA",
 			"or": "or",
 			"import_pia": "Importa PIA",
@@ -61,11 +61,11 @@
 			"pia_name": "PIA",
 			"placeholder_pia_name": "Titolo della PIA",
 			"author": "Autore",
-			"placeholder_author": "TO BE TRANSLATED - Firstname, lastname",
+			"placeholder_author": "Nome, cognome",
 			"evaluation": "Revisore",
-			"placeholder_evaluation": "TO BE TRANSLATED - Firstname, lastname",
+			"placeholder_evaluation": "Nome, cognome",
 			"validation": "Validatore",
-			"placeholder_validation": "TO BE TRANSLATED - Firstname, lastname",
+			"placeholder_validation": "Nome, cognome",
 			"date": "Data",
 			"status": "Stato",
 			"creation_status": "Inizializzazione",
@@ -81,7 +81,7 @@
 					"remove": "Cancella"
 				},
 				"edit_pia": "Modifica PIA",
-        "consult_pia": "TO BE TRANSLATED - Consult PIA"
+        "consult_pia": "Esamina PIA"
 			}
 		},
 		"lists": {
@@ -96,7 +96,7 @@
 			"column_actions": "Azioni",
 			"item": {
 				"tools": {
-          "consult": "TO BE TRANSLATED - Consult",
+          "consult": "Esamina",
 					"edit": "Modifica",
 					"export": "Esporta",
 					"duplicate": "Crea una copia",
@@ -119,8 +119,8 @@
 		"header": {
 			"preview": "Anteprima",
 			"display_action_plan": "Mostra<br>il piano d'azione",
-      "edition": "TO BE TRANSLATED - Edition",
-      "evaluation": "TO BE TRANSLATED - Evaluation"
+      "edition": "Modifica",
+      "evaluation": "Valutazione"
 		},
 		"attachments": {
 			"title": "Allegati",
@@ -133,16 +133,15 @@
       "refuse_pia": "Rifiuta PIA",
       "status": {
         "evaluation": {
-          "title": "TO BE TRANSLATED - Waiting for review.",
-          "content": "TO BE TRANSLATED - This part has not yet been reviewed. If you wish to edit the content submitted for review you have to ",
-          "cancel": "TO BE TRANSLATED - cancel the review request.",
-          "cancel_button": "TO BE TRANSLATED - Cancel the review request"
+          "title": "In attesa di revisione.",
+          "content": "Questa parte non è stata ancora esaminata. Se vuoi modificare il contenuto inviato per l'esame devi ",
+          "cancel": "annullare la richiesta di revisione.",
+          "cancel_button": "Annulla la richiesta di revisione"
         },
         "validation": {
-          "title": "TO BE TRANSLATED - Waiting for validation.",
-          "content": "TO BE TRANSLATED - This part has been reviewed and is waiting for the overall PIA validation. If you wish to change the review, you have to ",
-          "cancel": "TO BE TRANSLATED - cancel the validation request.",
-          "cancel_button": "TO BE TRANSLATED - Cancel the validation request"
+          "title": "In attesa di convalida.",
+          "content": "Questa parte è stata esaminata ed è in attesa di convalida complessina della PIA. Se vuoi modificare la revisione, devi ",
+          "cancel": "Annulla la richiesta di convalida",
         }
       }
 		},
@@ -311,7 +310,7 @@
 			"PIA_SEC_EXP": {
 				"placeholder": "Descrivi qui come si aggiorna il software (sistemi operativi, applicazioni etc.) e come sono effettuati di controlli di sicurezza e patch.",
 				"name": "Vulnerabilità",
-				"description": "Politiche volte a limitare la probabilità e la gravità dei rischi per le risorse utilizzate durante l'operatività e procedure operative documentali, inventario e aggiornaemnto di software e hardware, affrontare vulnerabilitଠduplicare i dati, limitare l'accesso fisico al materiale etc.).",
+				"description": "Politiche volte a limitare la probabilità e la gravità dei rischi per le risorse utilizzate durante l'operatività e procedure operative documentali, inventario e aggiornaemnto di software e hardware, affrontare vulnerabilità, duplicare i dati, limitare l'accesso fisico al materiale etc.).",
 				"source": "PIAF Oggetti Connessi p22 - WIKI"
 			},
 			"PIA_SEC_MAL": {
@@ -826,41 +825,41 @@
     "update": "Aggiorna URL"
   },
   "validation_page": {
-    "responsible": "TO BE TRANSLATED - Person accountable for validating the PIA: ",
-    "after_reading": "TO BE TRANSLATED - After reading full PIA relating to the data processing linked to ",
-    "confirmation1": "TO BE TRANSLATED - I attest that the context of the processing described in the PIA is consistent with the reality.",
-    "confirmation2": "TO BE TRANSLATED - I attest that I am aware of the risks depending on the existing or planned measures.",
-    "confirmation3": "TO BE TRANSLATED - I ratify the corrective actions indicated in the action plan.",
-    "confirmation4": "TO BE TRANSLATED - I commit to implement as quickly as possible the indicated corrective actions.",
+    "responsible": "Persona responsabile per la convalida della PIA: ",
+    "after_reading": "Dopo la completa lettura del PIA sul trattamento dati relativo a ",
+    "confirmation1": "Attesto che il contesto del trattamento descritto nel PIA è coerente con la realtà.",
+    "confirmation2": "Attesto di essere a conoscenza dei rischi dipendenti dalle misure adottate o pianificate.",
+    "confirmation3": "Ratifico le azioni correttive indicate nel piano di azione.",
+    "confirmation4": "Mi impegno ad attuare il più rapidamente possibile le azioni correttive indicate.",
     "button": {
-      "rejection": "TO BE TRANSLATED - Reject PIA",
-      "simple_validation": "TO BE TRANSLATED - Approve PIA <br>(direct)",
-      "signed_validation": "TO BE TRANSLATED - Approve PIA <br>(signed)"
+      "rejection": "Respingi PIA",
+      "simple_validation": "Approva PIA <br>(esplicita)",
+      "signed_validation": "Approva PIA <br>(firmata)"
     },
-    "mandatory_fields": "TO BE TRANSLATED - All boxes must be checked",
-    "waiting_for_signature": "TO BE TRANSLATED - Pending signed PIA",
-    "validated_pia_with_signature": "TO BE TRANSLATED - Approved",
-    "add_signed_pia": "TO BE TRANSLATED - Add the signed PIA",
-    "remove_attachment": "TO BE TRANSLATED - Remove the attachment",
-    "latest_signed_attachment": "TO BE TRANSLATED - Last signed attachment",
-    "signed_attachments_history": "TO BE TRANSLATED - Signed attachments history",
+    "mandatory_fields": "Tutte le caselle devono essere marcate",
+    "waiting_for_signature": "In attesa della PIA firmata",
+    "validated_pia_with_signature": "Approvata",
+    "add_signed_pia": "Aggiungi la PIA firmata",
+    "remove_attachment": "Rimuovi l'allegato",
+    "latest_signed_attachment": "L'ultimo allegato firmato",
+    "signed_attachments_history": "Cronologia allegati firmati",
     "tools": {
-      "dashboard": "TO BE TRANSLATED - Dashboard",
-      "display_pia": "TO BE TRANSLATED - Display PIA",
-      "action_plan": "TO BE TRANSLATED - Action plan"
+      "dashboard": "Cruscotto",
+      "display_pia": "Visualizza PIA",
+      "action_plan": "Piano di azione"
     }
   },
   "rejection_page": {
-    "title": "TO BE TRANSLATED - Validation history",
-    "rejection_reason": "TO BE TRANSLATED - Refusal reason",
-    "rejection_reason_placeholder": "TO BE TRANSLATED - Describe the reasons for refusing the PIA.",
-    "applied_adjustments": "TO BE TRANSLATED - Adjustments proposed",
-    "applied_adjustments_placeholder": "TO BE TRANSLATED - Describe the changes brought to the PIA.",
-    "previous_rejection": "TO BE TRANSLATED - Previous refusal",
+    "title": "Conologia convalida",
+    "rejection_reason": "Motivo rifiuto",
+    "rejection_reason_placeholder": "Descrivi le ragioni del riufiuto del PIA.",
+    "applied_adjustments": "Correzioni proposte",
+    "applied_adjustments_placeholder": "Descrivi le modifiche proposte al PIA.",
+    "previous_rejection": "Rifiuto precedente",
     "button": {
-      "abandon_treatment": "TO BE TRANSLATED - Abandon processing",
-      "reject_pia": "TO BE TRANSLATED - Reject PIA",
-      "send_for_validation": "TO BE TRANSLATED - Resend for approval"
+      "abandon_treatment": "Abbandona elaborazione",
+      "reject_pia": "Respingi PIA",
+      "send_for_validation": "Riproponi per l'approvazione"
     }
   },
   "misc": {
@@ -871,16 +870,16 @@
     "archive": "Archivia",
     "close": "Chiudi",
     "continue": "Continua",
-    "start_evaluation": "TO BE TRANSLATED - Start review",
+    "start_evaluation": "Inizia revisione",
     "back_to_home": "Torna alla home",
     "simple_pia_validation": {
       "content": "Il PIA è stato convalidato"
     },
     "completed_edition": {
-      "content": "TO BE TRANSLATED - The PIA has been fully edited, it has to be reviewed."
+      "content": "Il PIA è stato completamente modificato, deve essere riesaminato."
     },
     "completed_evaluation": {
-      "content": "TO BE TRANSLATED - The PIA has been fully reviewed, it has to be validated."
+      "content": "Il PIA è stato completamente modificato, deve essere approvato."
     },
     "update_server_url": {
       "content": "L'indirizzo del server è stato aggiornato."
@@ -893,7 +892,7 @@
       "content": "Sei sicuro di voler <br> terminare il trattamento?"
     },
     "refuse_pia": {
-      "content": "<span class='strong'>PIA rifiutato,</span><br>Diversi campi devono essere corretti.<br>Torna alla modalità convalida<br>per fare le correzioni."
+      "content": "<span class='strong'>PIA rifiutato,</span><br>Diversi campi devono essere corretti.<br>Torna alla modalità convalida<br>per fare le modifiche."
     },
     "same_comment": {
       "content": "<span class='strong'>Attenzione,</span><br>Inserisci un commento diverso dall'ultimo inserito."
@@ -904,13 +903,13 @@
     "remove_measure": {
       "content": "<span class='strong'>Attenzione,</span><br>Sei sicuro di voler <br> cancellare questa misura?",
       "remove": "Cancella questa <br>misura",
-      "keep": "Mantieni questa <br> misura"
+      "keep": "Mantieni questa <br>misura"
     },
     "ask_for_evaluation": {
       "content": "<span class='strong'>Congratulazioni,</span><br>la sottosezione è <br> disponibile per la convalida."
     },
     "validate_evaluation": {
-      "content": "TO BE TRANSLATED - <span class='strong'>Congratulations,</span><br>you've finished evaluating this section.<br>Others parts of the PIA has to be evaluated as well in order to be able to validate the PIA."
+      "content": "<span class='strong'>Congratulazioni,</span><br>hai finito l'esame di questa sezione.<br>Altre parti del PIA devono essere esaminate per poter approvare il PIA."
     },
     "validate_evaluation_to_correct": {
       "content": "Spiacente,<br>Diversi campi devono essere corretti.<br>Torna alla modalità modifica<br>per fare correzioni."
@@ -932,15 +931,15 @@
   "summary": {
     "previous_page": "Torna alla pagina precedente",
     "print": "Stampa",
-    "display_pia": "TO BE TRANSLATED - Display PIA",
-    "display_action_plan": "TO BE TRANSLATED - Display<br>action plan",
+    "display_pia": "Visualizza PIA",
+    "display_action_plan": "Visualizza<br>piano di azione",
     "display_filters": {
-      "title": "TO BE TRANSLATED - Filters",
-      "main_content": "TO BE TRANSLATED - Display \"PIA information\"",
-      "context_content": "TO BE TRANSLATED - Display \"Context\"",
-      "principles_content": "TO BE TRANSLATED - Display \"Fundamental principles\"",
-      "risks_content": "TO BE TRANSLATED - Display \"Risks\"",
-      "action_plan_content": "TO BE TRANSLATED - Display action plan"
+      "title": "Filtri",
+      "main_content": "Visualizza \"Informazioni PIA\"",
+      "context_content": "Visualizza \"Contesto\"",
+      "principles_content": "Visualizza \"Principi fondamentali\"",
+      "risks_content": "Visualizza \"Rischi\"",
+      "action_plan_content": "Visualizza piano di azione"
     },
     "title": "Informazioni sul PIA",
     "pia_name": "PIA",
@@ -1043,7 +1042,7 @@
     "placeholder_search_content": "Motiva perchè il parere delle persone interessate non è stato richiesto.",
     "treatment_ok": "Il trattamento puè essere implementato.",
     "treatment_nok": "Il trattamento non dovrebbe essere eseguito.",
-    "treatment_lock": "Completa le altre sezioni prima dөnserire il parere delle persone interessate."
+    "treatment_lock": "Completa le altre sezioni prima di inserire il parere delle persone interessate."
   },
   "sections": {
     "1": {
@@ -1060,7 +1059,7 @@
             },
             "2": {
               "title": "Quali sono le responsabilità legate al trattamento?",
-              "placeholder": "Descrivi le responsabilità degli stakeholder: il titolare del trattamento, gli eventuali responsabili interni e co-incaricati."
+              "placeholder": "Descrivi le responsabilità dei soggetti interessati: il titolare del trattamento, gli eventuali responsabili interni e co-incaricati."
             },
             "3": {
               "title": "Ci sono standard applicabili al trattamento?",
@@ -1119,7 +1118,7 @@
             "5": {
               "title": "Quale è la durata della conservazione dei dati?",
               "short_title": "Durata dell'archiviazione",
-              "placeholder": "Spiegare perchè a durata dell'archiviazione giustificata da requisiti legali e/o necessità i trattamento."
+              "placeholder": "Spiegare il perchè della durata dell'archiviazione è giustificata da requisiti legali e/o necessità di trattamento."
             }
           }
         },
@@ -1287,10 +1286,10 @@
           "short_help": "Presentare l'opinione delle persone responsabili della protezione dei dati e dei problemi di privacy (o eventuali delegati). Presentare anche le opinioni dei soggetti interessati o di loro rappresentanti."
         },
         "4": {
-          "title": "TO BE TRANSLATED - Validate the PIA"
+          "title": "Approva il PIA"
         },
         "5": {
-          "title": "TO BE TRANSLATED - Rejected PIA"
+          "title": "Respingi il PIA"
         }
       }
     }
